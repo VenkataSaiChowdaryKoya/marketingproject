@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global News | Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-elements">
+        <div class="blob shape-1"></div>
+        <div class="blob shape-2"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-brand">Global News</div>
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/business/business.html">Business</a>
+            <a href="/cricket/cricket.html">Cricket</a>
+            <a href="/health/health.html">Health</a>
+            <a href="/Mobiles/mobiles.html">Mobiles</a>
+            <a href="/technology/technology.html">Technology</a>
+        </div>
+    </nav>
+
+    <!-- Trending Ticker -->
+    <div class="trending-ticker">
+        <div class="ticker-content">
+            <span class="ticker-item">🚨 BREAKING: Global AI Summit Unveils Next-Gen Models</span>
+            <span class="ticker-item">📈 MARKETS: S&P 500 hits record high amidst tech rally</span>
+            <span class="ticker-item">🏏 CRICKET: T20 World Cup Final scheduled for Sunday</span>
+            <span class="ticker-item">⚕️ HEALTH: New study reveals benefits of daily meditation</span>
+            <!-- Duplicate for seamless scrolling -->
+            <span class="ticker-item">🚨 BREAKING: Global AI Summit Unveils Next-Gen Models</span>
+            <span class="ticker-item">📈 MARKETS: S&P 500 hits record high amidst tech rally</span>
+            <span class="ticker-item">🏏 CRICKET: T20 World Cup Final scheduled for Sunday</span>
+            <span class="ticker-item">⚕️ HEALTH: New study reveals benefits of daily meditation</span>
+        </div>
+    </div>
+
+    <main class="container">
+        <!-- Featured Hero Story -->
+        <header class="hero-section">
+            <div class="glass-card featured-news">
+                <div class="featured-image">
+                    <img src="images/global_news_hero.png" alt="Featured News: AI Intelligence">
+                </div>
+                <div class="featured-content">
+                    <span class="category-tag pulse-tag">TECHNOLOGY</span>
+                    <h1>The AI Revolution: What to Expect in 2026</h1>
+                    <p>Artificial General Intelligence is closer than we think. Experts at the Global Summit reveal
+                        groundbreaking models that could reshape industries overnight.</p>
+                    <a href="/technology/ai-revolution.html" class="primary-btn">Read Full Story</a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Top Stories Layout -->
+        <section class="news-category-section">
+            <div class="section-header">
+                <h2>Top Stories by Category</h2>
+                <div class="header-line"></div>
+            </div>
+
+            <div class="article-grid">
+                <!-- Business -->
+                <a href="/business/market-rally.html" class="glass-card article-card">
+                    <span class="category-tag">BUSINESS</span>
+                    <h3>Tech Stocks Pushing Markets to Record Highs</h3>
+                    <p>Investors remain incredibly bullish as tech giants report unprecedented earnings...</p>
+                    <div class="card-footer">2 hours ago</div>
+                </a>
+
+                <!-- Cricket -->
+                <a href="/cricket/world-cup-finals.html" class="glass-card article-card">
+                    <span class="category-tag">CRICKET</span>
+                    <h3>Road to the Finals: Who Will Take the Trophy?</h3>
+                    <p>An in-depth analysis of the two finalist teams and key players to watch out for.</p>
+                    <div class="card-footer">4 hours ago</div>
+                </a>
+
+                <!-- Health -->
+                <a href="/health/meditation-benefits.html" class="glass-card article-card">
+                    <span class="category-tag">HEALTH</span>
+                    <h3>Why 10 Minutes of Meditation Can Change Your Life</h3>
+                    <p>Recent studies suggest short daily mindfulness sessions drastically improve cognitive function.
+                    </p>
+                    <div class="card-footer">5 hours ago</div>
+                </a>
+
+                <!-- Social Media -->
+                <a href="/social/algorithm-changes.html" class="glass-card article-card">
+                    <span class="category-tag">SOCIAL</span>
+                    <h3>Major Platforms Announce Algorithm Shifts</h3>
+                    <p>Creators scramble to adapt as social networks prioritize chronological feeds once again.</p>
+                    <div class="card-footer">6 hours ago</div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
